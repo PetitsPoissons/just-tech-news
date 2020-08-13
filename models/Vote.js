@@ -9,6 +9,7 @@ Vote.init(
     {
         id: {
             type: DataTypes.INTEGER,
+            allowNull: false,
             primaryKey: true,
             autoIncrement: true
         },
@@ -36,4 +37,6 @@ Vote.init(
         underscored: true,
         modelName: 'vote'
     }
-)
+);
+
+module.exports = Vote;
