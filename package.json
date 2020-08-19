@@ -4,7 +4,7 @@
   "description": "News-based site with a coding theme",
   "main": "server.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
+    "test": "jest",
     "start": "nodemon server.js"
   },
   "repository": {
@@ -28,5 +28,8 @@
     "mysql2": "^2.1.0",
     "nodemon": "^2.0.4",
     "sequelize": "^6.3.4"
+  },
+  "devDependencies": {
+    "jest": "^26.4.0"
   }
 }
